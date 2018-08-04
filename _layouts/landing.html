@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+  {% capture title %}{{ page.title }}{% endcapture %}
+  {% include head.html title=title %}
+  <body>
+    <main>
+      {{content}}
+    </main>
+
+    {% include scripts.html %}
+  </body>
+</html>

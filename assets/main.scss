@@ -1,0 +1,57 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+
+main {
+  color: #777777;
+
+  h1, h2, h3, h4, h5, h6 {
+    color: black;
+  }
+
+  .strong {
+    color: black;
+  }
+
+  ul:not(.browser-default) > li {
+    list-style-type: circle;
+    list-style-position: inside;
+    padding-left: 10px;
+  }
+
+  .sidenav li {
+    list-style-type: none !important;
+    padding-left: 0px !important;
+  }
+}
+
+.sidenav {
+  padding-top: 30px;
+}
+
+header, main, footer {
+  margin-left: 330px;
+  margin-right: 5%;
+}
+
+.mini-divider {
+  width: 100px;
+  background-color: black;
+  margin-bottom: 20px;
+}
+
+.logo {
+  margin-top: 95%;
+}
+
+.gt-logo {
+  width: 150px;
+  margin-bottom: 32px;
+}
+
+@media only screen and (max-width : 992px) {
+  header, main, footer {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+}

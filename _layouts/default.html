@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+  {% capture title %}{{ page.title }}{% endcapture %}
+  {% include head.html title=title %}
+  <body>
+    {% capture course_name %}{{ page.course_name }}{% endcapture %}
+    {% capture course_number %}{{ page.course_number }}{% endcapture %}
+    {% include header.html
+      course_name=course_name
+      course_number=course_number
+    %}
+    <main>
+      {{content}}
+    </main>
+
+    {% include scripts.html %}
+  </body>
+</html>
