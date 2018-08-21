@@ -34,7 +34,7 @@
       <li>Proving a mistake bound on Weighted Majority
    <td>
       <ul>
-      <li markdown="span">[Scribe notes](http://web.eecs.umich.edu/~jabernet/eecs598course/web/notes/lec1_090413.pdf) posted from Lecture 1 </li>
+      <li markdown="span">[Scribe notes](notes/lec1_090413.pdf) posted from Lecture 1 </li>
       <li markdown="span"> An [open problem](http://colt2010.haifa.il.ibm.com/papers/OpenProblemAbernethy.pdf) I posed regarding "learning rankings" from COLT 2010 </li>
       <li markdown="span"> Apparently [a solution](http://jmlr.org/proceedings/papers/v23/hazan12b/hazan12b.pdf) to this open problem by Elad Hazan, Satyen Kale, and Shai Shalev-Shwartz </li>
       <li markdown="span">Homework to be released soon! It will be due 9/25/2013.</li>
@@ -48,7 +48,7 @@
       <li>The "Hedge Setting"
    <td>
       <ul>
-      <li markdown="span"> [Homework 1](http://web.eecs.umich.edu/~jabernet/eecs598course/web/homeworks/hw1.pdf) is available, it's due 9/25/2013.</li>
+      <li markdown="span"> [Homework 1](homeworks/hw1.pdf) is available, it's due 9/25/2013.</li>
       <li markdown="span"> [Notes](http://seed.ucsd.edu/Onlinecrs/rsrc/Onlinecrs/LessonNo2/talk2.handout.pdf) from Yoav Freund's course</li>
 
 
@@ -261,7 +261,7 @@
       <li>Online linear optimization in the bandit setting
    <td>
       <ul>
-      <li markdown="span">[Bandit slides](http://web.eecs.umich.edu/~jabernet/eecs598course/web/notes/bandit_talk_slides.pdf) from class presentation</li>
+      <li markdown="span">[Bandit slides](notes/bandit_talk_slides.pdf) from class presentation</li>
 
 
   <tr>
