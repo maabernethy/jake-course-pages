@@ -173,4 +173,4 @@ Notes](http://www-stat.wharton.upenn.edu/~rakhlin/courses/stat928/stat928_notes.
 #### Course Schedule and Additional Info
 <div class="divider mini-divider"></div>
 
-{% include eecs598_fall2013/schedule.html %}
+{% include_relative schedule.md %}
